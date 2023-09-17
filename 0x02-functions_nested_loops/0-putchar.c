@@ -2,9 +2,9 @@
 /**
 * main- Entry point of my code
 *
-*Always return 0
+* Return: always 0(success)
 */
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
