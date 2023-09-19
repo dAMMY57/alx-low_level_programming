@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+*main - ENTRY POINT OF MY CODE
+*
+*Return- Always 0(success)
+*/
 int main(void)
 {
 int sum = 0;
@@ -15,5 +19,5 @@ sum += i;
 
 printf("%d\n", sum);
 
-return 0;
+return (0);
 }
