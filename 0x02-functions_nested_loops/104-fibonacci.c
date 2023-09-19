@@ -15,7 +15,7 @@ int count = 0;
 
 printf("%lu, %lu", fib1, fib2);
 
-while (count < 96)  // Since we already printed the first 2 Fibonacci numbers
+ while (count < 96)
 {
 next = fib1 + fib2;
 printf(", %lu", next);
