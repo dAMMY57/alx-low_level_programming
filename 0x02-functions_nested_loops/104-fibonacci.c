@@ -3,29 +3,32 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program calculates and prints the first 98
- * Fibonacci numbers, separated by a comma and a space.
+ * Description: This program finds and prints the sum of even Fibonacci
+ * numbers that do not exceed 4,000,000.
  *
- * Return: Always 0 (Success) - The program terminates successfully.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-unsigned long int fib1 = 1, fib2 = 2, next;
-int count = 0;
+unsigned long int a = 1, b = 2, next;
+int count;
 
-printf("%lu, %lu", fib1, fib2);
+printf("%lu, %lu, ", a, b);
 
- while (count < 96)
+for (count = 3; count <= 98; count++)
 {
-next = fib1 + fib2;
-printf(", %lu", next);
+next = a + b;
+printf("%lu", next);
 
-fib1 = fib2;
-fib2 = next;
-count++;
-}
-
+if (count < 98)
+printf(", ");
+else
 printf("\n");
+
+a = b;
+b = next;
+}
 
 return (0);
 }
+
