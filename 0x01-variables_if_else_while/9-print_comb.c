@@ -7,7 +7,7 @@
  * separated by a comma and space.
  *
  * Return: Always 0 (Success)
- */ 
+ */
 int main(void)
 {
 int num = 0;
