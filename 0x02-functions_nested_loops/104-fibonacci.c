@@ -10,15 +10,15 @@
  */
 int main(void)
 {
-unsigned int a = 1, b = 2, next;
+unsigned long long int a = 1, b = 2, next;
 int count;
 
-printf("%u, %u, ", a, b);
+printf("%llu, %llu, ", a, b);
 
 for (count = 3; count <= 98; count++)
 {
 next = a + b;
-printf("%u", next);
+printf("%llu", next);
 
 if (count < 98)
 printf(", ");
