@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *more_numbers - prints nmbers from 0-14, ten times
+ * more_numbers - prints nmbers from 0-14, ten times
+ *and uses _putchar function to print the numbers,
+ *followed by new line at the end.
  */
 void more_numbers(void)
 {
