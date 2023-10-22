@@ -10,7 +10,7 @@ int start = 0;
 int end = 0;
 char temp;
 
- if (s == 0)
+if (s == 0)
 return;
 
 while (s[length] != '\0')
