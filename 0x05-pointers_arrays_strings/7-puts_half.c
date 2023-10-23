@@ -25,7 +25,7 @@ return (length);
 void puts_half(char *str)
 {
 int length = _strlen(str);
-int index;
+int index, i;
 
 if (length % 2 == 0)
 {
@@ -35,10 +35,11 @@ else
 {
 index = (length - 1) / 2;
 }
-while (str[index] != '\0')
+for (i = index; i < length; i++)
 {
-_putchar(str[index]);
-index++;
+_putchar(str[i]);
 }
+
 _putchar('\n');
+
 }
