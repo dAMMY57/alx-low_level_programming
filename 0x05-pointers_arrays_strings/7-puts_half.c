@@ -35,11 +35,11 @@ else
 {
 start = (length + 1) / 2;
 }
-    
+
 for (i = start; i < length; i++)
 {
- 
- _putchar(str[i]);
+
+_putchar(str[i]);
 }
 _putchar('\n');
 }
