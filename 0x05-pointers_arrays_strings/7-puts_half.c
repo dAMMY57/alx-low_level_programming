@@ -1,10 +1,10 @@
 #include "main.h"
 
-/**
- * _strlen - Calculate the length of a string
- * @str: The input string
- *
- * Return: The length of the string
+/**                                                                                                                                                                            
+ * _strlen - Calculate the length of a string                                                                                                                                  
+ * @str: The input string                                                                                                                                                      
+ *                                                                                                                                                                             
+ * Return: The length of the string                                                                                                                                            
  */
 int _strlen(char *str)
 {
@@ -18,9 +18,9 @@ length++;
 return (length);
 }
 
-/**
- * puts_half - Print the second half of a string
- * @str: The input string
+/**                                                                                                                                                                            
+ * puts_half - Print the second half of a string                                                                                                                               
+ * @str: The input string                                                                                                                                                      
  */
 void puts_half(char *str)
 {
@@ -39,7 +39,5 @@ for (i = index; i < length; i++)
 {
 _putchar(str[i]);
 }
-
 _putchar('\n');
-
 }
